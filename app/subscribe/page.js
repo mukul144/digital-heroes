@@ -3,8 +3,8 @@ import { useState } from 'react'
 import Link from 'next/link'
 
 const PLANS = [
-  { id: 'monthly', name: 'Monthly', price: '₹499 / month', note: 'Cancel anytime' },
-  { id: 'yearly', name: 'Yearly', price: '₹4,999 / year', note: 'Best value: 2 months free' },
+  { id: 'monthly', name: 'Monthly', price: '$9.99 / month', note: 'Cancel anytime' },
+  { id: 'yearly', name: 'Yearly', price: '$99 / year', note: 'Best value: 2 months free' },
 ]
 
 export default function SubscribePage() {
